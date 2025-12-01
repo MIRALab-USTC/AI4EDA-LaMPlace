@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
 develop-eggs/
 dist/
 downloads/
@@ -32,17 +31,24 @@ env/
 *.swo
 *~
 
-# Logs
-*.log
-log.txt
+# OS
+.DS_Store
+Thumbs.db
 
 # Build files
 bin/
 build/
+include/
+unittest/
 *.o
 *.a
 
+# Logs
+*.log
+log.txt
+
 # Data and results
+benchmarks/
 runs/
 graph_data/
 placement_data/
@@ -55,8 +61,3 @@ dreamplace_bak/
 
 # Third-party libraries (see README for setup)
 thirdparty/
-
-# OS
-.DS_Store
-Thumbs.db
-
